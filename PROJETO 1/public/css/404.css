@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #dfdfdf;
+}
+h1 {
+  color: red;
+}
