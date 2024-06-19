@@ -1,0 +1,13 @@
+<h1>EAE</h1>
+<p> o nome do usuario é {{user.name}} {{user.surname}}</p>
+
+{{#if auth}}
+  <p>
+    Você está autenticado
+  </p>
+  <a href="/dashboard">clique aqui</a>
+{{else}}
+  <p>
+    Você não está autenticado
+  </p>
+{{#/if}} 
